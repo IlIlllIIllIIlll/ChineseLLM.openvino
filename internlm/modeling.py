@@ -8,7 +8,7 @@ from typing import List, Tuple
 
 utils_file_path = Path('.')
 sys.path.append(str(utils_file_path))
-from utils import process_response, sample_next_token
+from utils import sample_next_token
 
 class InternLMModel():
 
